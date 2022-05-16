@@ -8,9 +8,15 @@ function Contact() {
             <section class="aboutme d-flex flex-column">
                 <p><img class="card me" src={yoru} alt="my avatar from bleach" height={300} width={300}  /></p>
                 <h2 id="aboutme">Contact</h2>
-                <p class="aboutme">Contact page will be here.
-                </p>
+                <ul><h2>
+                    <li><a href="https://github.com/boldsja"> My Github</a></li>
+                    <li><a href="https://www.linkedin.com/in/jasmine-bolds"> LinkedIn</a></li>
+                    <li><a href="mailto:boldsja@gmail.com">Email</a></li>
+                    <li><a href="./assets/Coding Resume.pdf" download>Resume</a> </li>
+                    </h2>
+                </ul>
             </section>
+
         </>
     )
 }

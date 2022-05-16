@@ -37,26 +37,6 @@ body {
     background-attachment: fixed;
 }
 
-/* code for header links */
-/* .top{
-    background-color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration-color: black;
-    font-size: 125%;
-    border: 2px;
-    border-style: groove;
-    border-color: black;
-} */
-
-/* header{
-    list-style: none;
-    margin: 0%;
-    text-align: center;
-    border: 1%;
-    border-style: groove;
-    border-color: black;
-    
-} */
 
 /* Bio */
 .aboutme {
@@ -132,7 +112,7 @@ h3 {
 }
 
 #p3{
-    background-image: url(../images/password-screenshot.png);
+    background-image: url(../images/projectbg.jpg);
     background-size: contain;
     
 }
