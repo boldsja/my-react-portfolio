@@ -6,11 +6,15 @@ import Contact from "./pages/Contact";
 import Project from "./pages/Project";
 import Header from "./components/Header";
 import Footer from "./components/Footer"
+import { createBrowserHistory } from "history";
+
+
 
 function App() {
+  const history = createBrowserHistory();
   return (
     <div>
-      <Router>
+      <Router history={history} basename="/my-react-portfolio">
         <Header />
         <Routes>
           <Route path='/' element={<Home />}></Route>
