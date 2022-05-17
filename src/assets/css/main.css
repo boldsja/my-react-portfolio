@@ -49,6 +49,7 @@ body {
     margin: 10%
 }
 
+
 .navbar{
     text-align: center;
 }
@@ -104,6 +105,8 @@ h3 {
 
 .projects {
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #p1 {
@@ -125,6 +128,7 @@ h3 {
     align-items: center;
     background-image: url(../images/projectbg.jpg);
     background-size: cover;
+    margin: 5px;
 }
 
 .card-body {
