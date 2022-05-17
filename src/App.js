@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -14,7 +14,7 @@ function App() {
   const history = createBrowserHistory();
   return (
     <div>
-      <Router history={history} basename="/my-react-portfolio">
+      <Router history={history} basename="/my-react-portfolio" hashType="slash">
         <Header />
         <Routes>
           <Route path='/' element={<Home />}></Route>
